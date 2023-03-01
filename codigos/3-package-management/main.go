@@ -1,8 +1,8 @@
 package main
 
 import (
-	"curso-go/matematica"
 	"fmt"
+	"math/matematica"
 )
 
 func main() {
