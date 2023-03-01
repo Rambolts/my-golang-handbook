@@ -1,0 +1,30 @@
+COMANDOS:
+	ctrl + j (terminal)
+	ctrl + s (auto ident)
+	go env (todas as variaveis de ambiente que o Go usa)
+	| GOPATH (pasta que o arquivo vai interpretar, ou vai guardar os binários)
+	| GOMODCACHE (gerenciamento de dependências)
+	go mod init {nome_do_projeto}
+
+
+Pasta do Go
+	bin (binários)
+	pkg (compilações .a)
+	src (onde cria-se os projetos)
+
+Instalando Go VS Code
+	Instala extensão
+	Ctrl+Shift+P
+	Go: install tools
+	Seleciona todos e Ok
+
+Todos os arquivos do mesmo pacote compartilham todas as variáveis
+Tudo que começa com letra MAIUSCULA está exportado para outros .go dentro do projeto (privado)
+
+
+######### PACOTES ##########
+fmt
+	fmt.Printf
+	| %T (Tipo da variável)
+	| %v (Valor)
+

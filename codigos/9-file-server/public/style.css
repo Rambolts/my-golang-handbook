@@ -1,0 +1,357 @@
+/*RESET*/
+*, *:before, *:after{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+
+    line-height: 1.2;
+    letter-spacing: 0em;
+
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+h1{font-size: 2em; font-weight: 400;}
+h2{font-size: 1.8em; font-weight: 600;}
+h3{font-size: 1.5em; font-weight: 800;}
+p{margin-bottom: 15px;}
+b, strong{font-weight: bold;}
+mark{padding: 5px 10px; background: #eee;}
+ul{list-style: none;}
+img{border: none; max-width: 100%; vertical-align: middle;}
+small{font-size: 0.75em; color: #555;}
+a{text-decoration: none; color: #09f;}
+a img{border: 0;}
+
+/*MEDIAS*/
+object,
+embed,
+video,
+iframe,
+ifram[style]{
+    max-width: 100%;
+    height: auto;
+}
+
+/*RATIO*/
+.ratio{
+    position: relative;
+    padding-bottom: 56.25%;
+    float: left;
+    width: 100%;
+    height: 0;
+}
+
+.media{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+/*BIG TITLE*/
+.big_title{
+    display: block;
+    margin-bottom: 50px;
+}
+
+.big_title h1{
+    font-size: 3em;
+    font-weight: bold;
+    color: #888;
+    text-transform: uppercase;
+}
+
+.big_title .tagline{
+    padding-left: 5px;
+    color: #aaa;
+}
+
+/*BOX GERAL*/
+.container{float: left; width: 100%;}
+.content{display: block; margin: 0 auto; padding: 20px 0; width: 80%; max-width: 1200px;}
+.fontzero{font-size: 0;}
+.clear{clear: both;}
+.backtop{position: fixed; cursor: pointer; bottom: 25px; right: 25px; text-transform: uppercase; color: #fff; padding: 15px; background-color: rgba(0,0,0, 0.5); border-radius: 3px; display: none;}
+
+/*HEADER*/
+.main_header{
+    background: #e8ddd4;
+    border-bottom: solid 2px #aaa;
+}
+
+.main_header_fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.main_header .main_img{
+    float: left;
+    padding: 0px 200px 0px 10px;
+    border-radius: 20px 70px 20px 70px;
+    background: #fff;
+}
+
+.main_header img{
+    width: 300px;
+}
+
+.main_menu{
+    float: right;
+    margin-top: 50px;
+}
+
+.main_menu li{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.main_menu li:last-of-type{
+    margin-right: 0;
+}
+
+.main_menu a{
+    font-size: 1.2em;
+    padding: 10px 15px;
+    color: #fff;
+    background: #8a684b;
+    border-radius: 5px;
+}
+
+.main_menu a:hover{
+    opacity: 0.6;
+    -webkit-transition: opacity 0.6s ease-in-out;
+    -moz-transition: opacity 0.6s ease-in-out;
+    -o-transition: opacity 0.6s ease-in-out;
+    transition: opacity 0.6s ease-in-out;
+}
+
+/*DESTAQUE*/
+.destaque{
+    background: url("img/destaque1.jpg");
+    background-color: #000;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center top;
+    height: 820px;
+    color: #fff;
+    border-bottom: solid 5px #555;
+}
+
+.destaque .content{
+    margin-top: 30px;
+    color: #c8bdb4
+}
+
+.destaque header{
+    float: left;
+
+}
+
+.destaque h1{
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #fff;
+    margin: 330px 23% 0 23%;
+    border-radius: 40px;
+    color: #827a73;
+}
+
+.destaque p{
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+
+/*SOBRE*/
+.sobre{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.sobre h1{
+    width: 45%;
+    margin: 0;
+    border-bottom: solid 5px #7a7;
+    border-radius: 10px;
+}
+
+.sobre p{
+    margin-top: 10px;
+    width: 50%;
+    color: #555;
+}
+
+.sobre img{
+    float: right;
+    width: 20%;
+    margin-right: 30px;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    box-shadow: 10px 10px 5px grey;
+}
+
+/*SITES*/
+.sites{
+    background: url("img/imagem.jpg");
+    background-color: #000;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center top;
+}
+
+.sites h1{
+    width: 45%;
+    border-bottom: solid 5px #7a7;
+    border-radius: 10px;
+}
+
+.sites article{
+    width: 48%;
+    float: left;
+    margin: 0 4% 6% 0;
+}
+
+.sites article img{
+    float: left;
+    margin-right: 15px;
+    width: 70%;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.sites article img:hover{
+    opacity: 0.6;
+    -webkit-transition: opacity 0.6s ease-in-out;
+    -moz-transition: opacity 0.6s ease-in-out;
+    -o-transition: opacity 0.6s ease-in-out;
+    transition: opacity 0.6s ease-in-out;
+}
+
+.sites article:nth-of-type(2n+0){
+    margin-right: 0;
+    margin-left: 0;
+}
+
+/*CONTATO*/
+.contato{
+    background: #eee;
+}
+
+.contato header{
+    width: 28%;
+    margin: 0;
+    border: none;
+    float: left;
+}
+
+.contato p{
+    margin-top: 15px;
+}
+
+.contato_form{
+    float: right;
+    width: 70%;
+    padding-left: 5%;
+}
+
+.contato_form label{
+    display: block;
+    width: 100%;
+}
+
+.contato_form .medium{
+    float: left;
+    width: 48%;
+}
+
+.contato_form .medium:first-of-type{
+    margin-right: 4%;
+}
+
+.contato_form input,
+.contato_form textarea{
+    width: 100%;
+    border: none;
+    background: #ccc;
+    padding: 10px;
+    font-family: 'Arial', sans-serif;
+}
+
+.contato_form textarea .msg{
+    margin-top: 10px;
+}
+
+.contato_form .btn{
+    border: none;
+    background: #289cb5;
+    color: #fff;
+    padding: 15px 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.875em;
+    float: right;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.contato_form .btn:hover{
+    background: #51c1d9;
+}
+
+.form_load{
+    float: right;
+    margin: 25px 0 0 10px;
+    display: none;
+}
+
+/*FOOTER*/
+.main_footer{
+    color: #ccc;
+    text-align: center;
+    background: #629a38;
+    border-top: solid 5px #427a18;
+}
+
+.main_footer .title{
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.main_footer .subtitle{
+    font-weight: bold;
+    font-size: 1.4em;
+    text-transform: uppercase;
+}
+
+.main_footer_social{
+    display: block;
+    margin-top: 20px;
+}
+
+.main_footer_social li{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.main_footer_social a{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+
+.facebook{
+    float: right;
+    margin-top: 300px;
+}
