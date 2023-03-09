@@ -15,7 +15,14 @@
 
 Necessáriamente deverá aparecer a versão do Go
 
-Caso resulte em "*comando inválido*" significa que a sua variável PATH não está apontando para a pasta do Go
+#### Caso resulte em "*comando inválido*" 
+Significa que a sua variável PATH não está apontando para a pasta do Go
 
 - (*windows*) C:\Program Files\Go\
 - (*Linux*) /usr/local/go/          
+
+## Configuração VSCode
+
+Instale a extensão Go
+
+Ctrl+Shift ou Cmd+Shift -> Go:Install/Update Tools -> Seleciona Todas e Instala
